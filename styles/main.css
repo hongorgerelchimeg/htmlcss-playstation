@@ -6,3 +6,9 @@
     background-color: black;
     padding: .4rem;
 }
+
+/* My Button */
+
+.my_button {
+    border-radius: 1rem;
+}
