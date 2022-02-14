@@ -11,4 +11,13 @@
 
 .my_button {
     border-radius: 1rem;
+    margin-left: .5rem;
+}
+
+/* ICON */
+
+.my_search {
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
