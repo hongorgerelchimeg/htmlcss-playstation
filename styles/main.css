@@ -11,7 +11,7 @@
 
 .my_button {
     border-radius: 1rem;
-    margin-left: .5rem;
+    
 }
 
 /* ICON */
@@ -20,4 +20,43 @@
     display: block;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+/* Hero */
+
+.hero-section {
+    margin-top: 5rem;
+}
+
+.hero {
+
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top;
+    background-size: cover;
+    
+}
+
+.hero-row {
+    height: 100%;
+}
+
+.hero-white-space {
+    height: 35vh;
+   
+}
+
+.thumb-col {
+    border-radius: 10%;
+}
+
+.rounded-4 {
+    border-radius: 1rem;
+}
+
+.img-focused {
+
+    outline: 2px solid rgb(0, 47, 255);
+    outline-offset: .2rem;
+  
+
 }
