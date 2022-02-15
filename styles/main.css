@@ -2,10 +2,21 @@
 
 :root {
     --blue: rgb(0, 106, 255);
+    --body-color: #555555;
+    --bg-header: white;
 }
 
 body {
-    font-size: 12px;
+    font-size: 14px;
+    color: var(--body-color);
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
 }
 /* Logo */
 
@@ -46,6 +57,10 @@ body {
     
 }
 
+.hero-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
 .hero-row {
     height: 100%;
 }
@@ -73,4 +88,26 @@ body {
 
 .text-color-blue {
     color: var(--blue);
+}
+
+
+
+/* Backround Color */
+
+.bg-header {
+    background-color: var(--bg-header);
+}
+
+/* Image */
+
+.img-selected {
+    border-bottom: 1px solid var(--blue);
+}
+
+.img-not-selected {
+    filter: opacity(.7);
+}
+
+.img-max-height {
+    max-height: 200px;
 }
