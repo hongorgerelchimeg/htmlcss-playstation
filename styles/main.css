@@ -4,11 +4,13 @@
     --blue: rgb(0, 106, 255);
     --body-color: #555555;
     --bg-header: white;
+    --bg-grey: #333333;
 }
 
 body {
     font-size: 14px;
     color: var(--body-color);
+    overflow-x: hidden;
 }
 
 h1 {
@@ -96,6 +98,10 @@ h2 {
 
 .bg-header {
     background-color: var(--bg-header);
+}
+
+.bg-grey {
+    background-color: var(--bg-grey);
 }
 
 /* Image */
