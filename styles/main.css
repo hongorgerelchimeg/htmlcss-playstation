@@ -72,9 +72,18 @@ h2 {
     
 }
 
+.hero-ps-now {
+    background-color: rgb(0, 0, 59);
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-position-x: 85% ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .hero-row {
     height: 100%;
 }
+
 
 .hero-white-space {
     height: 35vh;
@@ -138,6 +147,10 @@ h2 {
 @media only screen and (max-width: 767px) {
 
     .hero-grey {
+        background-image: none;
+    }
+
+    .hero-ps-now {
         background-image: none;
     }
     
