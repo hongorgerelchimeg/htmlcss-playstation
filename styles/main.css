@@ -1,4 +1,14 @@
+/* Variables */
+
+:root {
+    --blue: rgb(0, 106, 255);
+}
+
+body {
+    font-size: 12px;
+}
 /* Logo */
+
 
 .logo-sony {
     display: flex;
@@ -55,8 +65,12 @@
 
 .img-focused {
 
-    outline: 2px solid rgb(0, 47, 255);
+    outline: 2px solid var(--blue);
     outline-offset: .2rem;
   
 
+}
+
+.text-color-blue {
+    color: var(--blue);
 }
