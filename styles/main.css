@@ -20,6 +20,33 @@ h1 {
 h2 {
     color: black;
 }
+
+/* Header */
+
+.dropdown, .dropend, .dropstart, .dropup {
+
+    position: static;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 95%;
+    left: 0;
+    right: 0;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    
+}
+
+
+
+li {
+    display: inline-block;
+}
+
+
+
+
 /* Logo */
 
 
